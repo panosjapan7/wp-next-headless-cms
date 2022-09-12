@@ -22,7 +22,7 @@ const CategoryList = () => {
           {categoryList &&
             categoryList.map((category, index) => {
               return (
-                <Link href={category.name} key={index}>
+                <Link href={`/${category.name}`} key={index}>
                   <p className={styles.categoriesItem}>{category.name},</p>
                 </Link>
               );
