@@ -26,19 +26,27 @@ const Category = () => {
     }, [category]);
   
     return (
-      <div className={styles.categoryPageWrapper}>
-        <p className={styles.categoryName}>{category}</p>
-        <div className={styles.postsList}>
-          {posts &&
-            posts.map((post, index) => {
-              return (
-                <Link href={`/posts/${post.ID}`} key={index}>
-                  <p className={styles.postTitle}>{post.title}</p>
-                </Link>
-              );
-            })}
+      <>
+        <Head>
+          <meta name="keywords" content="education, headless cms, wordpress, nextjs" />
+          <meta name="Panos Tsapanidis" content="Webb21 CMS" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>{category && category.toUpperCase()}</title>
+        </Head>
+        <div className={styles.categoryPageWrapper}>
+          <p className={styles.categoryName}>{category}</p>
+          <div className={styles.postsList}>
+            {posts &&
+              posts.map((post, index) => {
+                return (
+                  <Link href={`/posts/${post.ID}`} key={index}>
+                    <p className={styles.postTitle}>{post.title}</p>
+                  </Link>
+                );
+              })}
+          </div>
         </div>
-      </div>
+      </>
     );
   };
   
