@@ -8,7 +8,7 @@ function About() {
   
         <div className={styles.teamStackContainer}>
           <div className={styles.teamContainer}>
-            <h2 className={styles.h2Title}>Headless CMS with WordPress.com & React</h2>
+            <h2 className={styles.h2Title}>Headless CMS with WordPress.com & Next.js</h2>
             <p className={styles.teamItems}>Made By: Panos Tsapanidis</p>
             <a
               href="https://github.com/panosjapan7/headless-cms-wordpress"
