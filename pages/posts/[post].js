@@ -39,25 +39,33 @@ function Post() {
     }, [router.query, postId]);
   
     return (
-      <div className={styles.post}>
-        <div className={styles.postIdCategoryContainer}>
-          <p className={styles.singlePost}>
-            Post id: {post.ID ? post.ID : `${postId} doesnt exist`}
-          </p>
-          <p className={styles.singlePost}>
-            Post Category:{" "}
-            {postCategory ? postCategory : `${postCategory} doesnt exist`}
-          </p>
-          <p className={styles.singlePost}>
-            Post Date:{" "}
-            {post.date ? post.date.split("T")[0] : `${post.date} doesnt exist`}
-          </p>
+      <>
+        <Head>
+          <meta name="keywords" content="education, headless cms, wordpress, nextjs" />
+          <meta name="Panos Tsapanidis" content="Webb21 CMS" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>{post.title ? post.title : "Post Title"}</title>
+        </Head>
+        <div className={styles.post}>
+          <div className={styles.postIdCategoryContainer}>
+            <p className={styles.singlePost}>
+              Post id: {post.ID ? post.ID : `${postId} doesnt exist`}
+            </p>
+            <p className={styles.singlePost}>
+              Post Category:{" "}
+              {postCategory ? postCategory : `${postCategory} doesnt exist`}
+            </p>
+            <p className={styles.singlePost}>
+              Post Date:{" "}
+              {post.date ? post.date.split("T")[0] : `${post.date} doesnt exist`}
+            </p>
+          </div>
+    
+          {post.title && <h1 className="singlePost">{post.title}</h1>}
+          {/* <Image className="featured-image" src={post.featured_image} alt="" /> */}
+          {post.content && <div className="singlePost">{parse(post.content)}</div>}
         </div>
-  
-        {post.title && <h1 className="singlePost">{post.title}</h1>}
-        {/* <Image className="featured-image" src={post.featured_image} alt="" /> */}
-        {post.content && <div className="singlePost">{parse(post.content)}</div>}
-      </div>
+      </>
     );
   }
   
