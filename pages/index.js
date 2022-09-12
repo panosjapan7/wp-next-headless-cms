@@ -21,9 +21,8 @@ function Home() {
   return (
     <>
     <Head>
-        <meta charset="UTF-8" />
-        <meta name="keywords" content="title, meta, nextjs" />
-        <meta name="author" content="Syamlal CM" />
+        <meta name="keywords" content="education, headless cms, wordpress, nextjs" />
+        <meta name="Panos Tsapanidis" content="Webb21 CMS" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Webb21 CMS Examinationsuppgift</title>
       </Head>
