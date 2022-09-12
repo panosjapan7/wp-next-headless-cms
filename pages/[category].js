@@ -31,7 +31,7 @@ const Category = () => {
           <meta name="keywords" content="education, headless cms, wordpress, nextjs" />
           <meta name="Panos Tsapanidis" content="Webb21 CMS" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>{category && category.toUpperCase()}</title>
+          <title>{category ? category.toUpperCase() : "Category"}</title>
         </Head>
         <div className={styles.categoryPageWrapper}>
           <p className={styles.categoryName}>{category}</p>
