@@ -1,0 +1,41 @@
+.categoryPageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .categoryName {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    color: rgb(13, 26, 38);
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .postsList {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .postTitle {
+    font-size: 1.5em;
+    font-weight: 400;
+  
+    margin-top: 0px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .postTitle:hover {
+    font-weight: 600;
+  }
+  
