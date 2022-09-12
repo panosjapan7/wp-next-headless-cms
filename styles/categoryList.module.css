@@ -2,7 +2,8 @@
     background-color: white;
     color: rgb(13, 26, 38);
     border-top: 1px rgb(199, 199, 199, 0.3) solid;
-    height: 60px;
+    border-bottom: 1px rgb(199, 199, 199, 0.3) solid;
+    height: 80px;
   
     display: flex;
     flex-direction: row;
@@ -10,7 +11,7 @@
     flex-wrap: wrap;
     align-items: center;
   
-    padding-left: 100px;
+    padding-left: 28px;
     padding-right: 20px;
   }
   .categoriesHeader {
