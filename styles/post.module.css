@@ -1,0 +1,106 @@
+.post {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .postIdCategoryContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    color: rgb(13, 26, 38);
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+  
+  .singlePost {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .panos {
+    text-align: center;
+    font-size: 100em;
+  }
+  .has-text-align-center {
+    font-size: 30em;
+  }
+  .ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 20px;
+    min-width: 200px;
+  }
+  .li {
+    list-style-type: none;
+  
+    background-image: url("https://cdn.iconscout.com/icon/free/png-256/bullet-32-458679.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10%;
+  }
+  
+  .featuredImage {
+    max-width: 800px;
+  }
+  .img {
+    max-width: 500px;
+    height: auto;
+  }
+  .h2 {
+    font-size: 3em;
+    max-width: 400px;
+  }
+  .h3 {
+    font-size: 2em;
+  }
+  .p {
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .wp-block-media-text.alignwide.has-media-on-the-right.is-stacked-on-mobile.is-vertically-aligned-center,
+  .wp-block-media-text.alignwide.has-media-on-the-right.is-stacked-on-mobile,
+  .wp-block-media-text.alignwide.is-stacked-on-mobile,
+  .wp-block-media-text.alignwide.has-media-on-the-right.is-stacked-on-mobile {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .wp-block-spacer {
+    display: none;
+  }
+  .is-nowrap.is-layout-flex.wp-container-1.wp-block-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .is-nowrap.is-layout-flex.wp-container-1.wp-block-group > p:hover {
+    font-weight: 600;
+  }
+  .wp-elements-dabd1535e59db6d5420d80522dddb551.has-link-color.has-large-font-size:hover {
+    font-weight: 600;
+  }
+  .wp-block-media-text__content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .wp-image-135 {
+    width: 200px;
+    height: auto;
+  }
+
+
+
+  
+  
