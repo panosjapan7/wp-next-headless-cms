@@ -16,14 +16,14 @@ const CategoryList = () => {
     }, []);
   
     return (
-      <div className="category-list-wrapper">
-        <p className="categories-header">Categories:</p>
-        <div className="categories-container">
+      <div className={styles.categoryListWrapper}>
+        <p className={styles.categoriesHeader}>Categories:</p>
+        <div className={styles.categoriesContainer}>
           {categoryList &&
             categoryList.map((category, index) => {
               return (
                 <Link href={category.name} key={index}>
-                  <p className="categories-item">{category.name},</p>
+                  <p className={styles.categoriesItem}>{category.name},</p>
                 </Link>
               );
             })}

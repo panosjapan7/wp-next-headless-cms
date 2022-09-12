@@ -1,0 +1,54 @@
+.categoryListWrapper {
+    background-color: white;
+    color: rgb(13, 26, 38);
+    border-top: 1px rgb(199, 199, 199, 0.3) solid;
+    height: 60px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+  
+    padding-left: 100px;
+    padding-right: 20px;
+  }
+  .categoriesHeader {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    color: rgb(13, 26, 38);
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  .categoriesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-left: 5px;
+  }
+  
+  .categoriesItem {
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    color: rgb(13, 26, 38);
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    cursor: pointer;
+  
+    margin: 0;
+  }
+  .categoriesItem:hover {
+    font-weight: 600;
+  }
+  
