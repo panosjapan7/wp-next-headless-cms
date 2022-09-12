@@ -4,24 +4,24 @@ import styles from '../styles/navbar.module.css'
 
 function NavBar() {
     return (
-      <div className="navbar">
-        <div className="nav-wrapper">
-          <div className="logo">
+      <div className={styles.navbar}>
+        
+          <div className={styles.logo}>
             {/* <Link href="/">
             </Link> */}
           </div>
-          <div id="menu">
+
+          <div id="menu" className={styles.menuContainer}>
             <Link href="/">
-                <div>
-                    <p className={styles.anchor}>WEBB21</p>
-                    <p className={styles.anchor}>Home</p>
+                <div className={styles.logoHomeContainer}>
+                    <p className={styles.logo}>WEBB21</p>
+                    <p className={styles.link}>Home</p>
                 </div>
             </Link>
             <Link href="/about">
-                <p className={styles.anchor}>About</p>
+                <p className={styles.link}>About</p>
             </Link>
           </div>
-        </div>
       </div>
     );
   }
