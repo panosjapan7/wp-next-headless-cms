@@ -1,5 +1,28 @@
 # Webb21-cms: Headless CMS with Wordpress.com and Next.js Frontend
 
+## Backend
+- **Hosting & Server Environment of Backend:** Hosted with Wordpress.com. 
+    - [Create a FREE Wordpress Blog in 15 Minutes on Wordpress.com Tutorial for Beginners](https://www.youtube.com/watch?v=vBcsj3LNtxM)
+    - Documentation: [GitHub README.md](https://github.com/panosjapan7/wp-next-headless-cms/blob/main/README.md)
+- **Backend Source Code:** 
+    - **Development environment and deployment:** Change the backend's code by logging into your [Wordpress.com blog](https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fwordpress.com%2F)
+    - Documentation: [GitHub README.md](https://github.com/panosjapan7/wp-next-headless-cms/blob/main/README.md)
+## Frontend
+- **Hosting & Server Environment of Frontend:** Hosted with Vercel. 
+    - [Sign up or log in to Vercel](https://vercel.com/signup?next=%2Fdashboard)
+    - [Link to project's Frontend that's deployed on Vercel](https://wp-next-headless-cms.vercel.app/)
+    - Documentation: [GitHub README.md](https://github.com/panosjapan7/wp-next-headless-cms/blob/main/README.md)
+- **Frontend Source Code:** 
+    - **Development environment and deployment:** The source code is available on GitHub.com and it's automatically deployed when pushing/merging to a branch
+    - [Link to GitHub repository](https://github.com/panosjapan7/wp-next-headless-cms)
+    - Documentation: [GitHub README.md](https://github.com/panosjapan7/wp-next-headless-cms/blob/main/README.md)
+## Integrations
+- ***Vercel for GitHub* Integration:**  [Vercel for GitHub](https://vercel.com/docs/concepts/git/vercel-for-github) automatically deploys your GitHub projects with Vercel, providing Preview Deployment URLs, and automatic Custom Domain updates.
+- **WordPress.com API:** The data in the Frontend project is displayed by accessing Wordpress.com's API endpoints.
+    - [Link to the WordPress.com blog's API endpoint](https://public-api.wordpress.com/rest/v1.1/sites/panos578571429.wordpress.com/posts)
+    - [WordPress.com API Documentation](https://developer.wordpress.com/docs/api/)
+    - Documentation: [GitHub README.md](https://github.com/panosjapan7/wp-next-headless-cms/blob/main/README.md)
+** **
 ## 1. Import the project's repository into your own GitHub repository
 1. Create a new repository in your GitHub profile.
     - Give the new repository a name (doesn't matter what name)
